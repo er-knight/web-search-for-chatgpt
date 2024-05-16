@@ -3,6 +3,13 @@
     "name": "ChatGPT Web Access",
     "version": "1.0",
     "description": "Access Web via ChatGPT",
+    "permissions": [
+        "storage"
+    ],
+    "options_ui": {
+        "page": "options.html",
+        "open_in_tab": false
+    },
     "action": {
         "default_icon": "icon.png"
     },
@@ -12,7 +19,8 @@
                 "content.js"
             ],
             "matches": [
-                "https://chat.openai.com/*"
+                "https://chat.openai.com/*",
+                "https://chatgpt.com/*"
             ]
         }
     ],

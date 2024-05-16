@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>ChatGPT Web Access</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+        }
+
+        input {
+            font-family: Poppins, 'Segoe UI', Tahoma, sans-serif;
+            display: inline-flex;
+            height: 2.4rem;
+            outline: none;
+            border: 0.08rem solid #2A2B2E;
+            border-radius: 0.4rem;
+            padding: 0.1rem 0.4rem;
+            caret-color: #2A2B2E;
+            margin: 0rem 0rem 0.4rem 0rem;
+            box-sizing: border-box;
+        }
+
+        button {
+            font-family: Poppins, 'Segoe UI', Tahoma, sans-serif;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            height: 2.4rem;
+            padding: 0.1rem 0.4rem;
+            outline: none;
+            border: none;
+            border-radius: 0.4rem;
+            padding: 0.1rem 0.4rem 0.08rem 0.4rem;
+            margin: 0rem 0rem 0.4rem 0rem;
+            background-color: #ADE25D;
+            color: #2A2B2E;
+            font-size: 1rem;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        a {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            font-family: Poppins, 'Segoe UI', Tahoma, sans-serif;
+        }
+    </style>
+    <link rel='preconnect' href='https://fonts.googleapis.com'>
+    <link rel='preconnect' href='https://fonts.gstatic.com' crossorigin>
+    <link href='https://fonts.googleapis.com/css2?family=Poppins&display=swap' rel='stylesheet'>
+</head>
+
+<body>
+    <input type='text' id='serpapi-key-input' placeholder='Your SerpAPI Key'>
+    <button type='button' id='save-button'>Save</button>
+    <a href='https://serpapi.com/'>Get your SerpAPI Key</a>
+    <script src='options.js'></script>
+</body>
+
+</html>
